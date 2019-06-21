@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81966b02-702a-4783-b379-141ec8488b8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/classes/META-INF/fabric8/kubernetes.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/classes/META-INF/fabric8/kubernetes/configservice-deployment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/classes/META-INF/fabric8/kubernetes/configservice-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/classes/META-INF/fabric8/openshift.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/classes/META-INF/fabric8/openshift/configservice-deploymentconfig.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/classes/META-INF/fabric8/openshift/configservice-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/classes/io/fabric8/maven/sample/spring/boot/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/classes/io/fabric8/maven/sample/spring/boot/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/configservice-4.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/configservice-4.0.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/build.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/classmate-1.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/configservice-4.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/hibernate-validator-5.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/jackson-annotations-2.6.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/jackson-core-2.6.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/jackson-databind-2.6.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/jboss-logging-3.3.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/jcl-over-slf4j-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/jolokia-core-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/json-simple-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/jul-to-slf4j-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/log4j-over-slf4j-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/logback-classic-1.1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/logback-core-1.1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/slf4j-api-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/snakeyaml-1.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-aop-4.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-beans-4.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-boot-1.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-boot-actuator-1.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-boot-autoconfigure-1.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-boot-starter-1.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-boot-starter-actuator-1.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-boot-starter-logging-1.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-boot-starter-tomcat-1.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-boot-starter-validation-1.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-boot-starter-web-1.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-context-4.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-core-4.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-expression-4.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-web-4.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/spring-webmvc-4.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/tomcat-embed-core-8.0.36.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/tomcat-embed-el-8.0.36.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/tomcat-embed-logging-juli-8.0.36.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/tomcat-embed-websocket-8.0.36.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/deployment/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/tmp/docker-build.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/fabric8/applyJson/default/deployment-configservice-1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/fabric8/applyJson/default/deployment-configservice-2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/fabric8/applyJson/default/deployment-configservice.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/fabric8/applyJson/default/service-configservice-1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/fabric8/applyJson/default/service-configservice-2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/fabric8/applyJson/default/service-configservice.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/fabric8/deployment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/fabric8/service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-with-yaml/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-with-yaml/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/src/main/java/io/fabric8/maven/sample/spring/boot/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="140" selection-start-line="140" selection-end-line="140" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/src/main/java/io/fabric8/maven/sample/spring/boot/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spring-boot-with-yaml/src/main/fabric8/raw/secret.yaml" />
+        <option value="$PROJECT_DIR$/spring-boot-with-yaml/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-with-yaml/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-with-yaml/src/main/java/io/fabric8/maven/sample/spring/boot/HelloController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fabric8 Maven :: Sample :: Spring Boot Web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fabric8 Maven :: Sample :: Spring Boot Web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fabric8 Maven :: Sample :: Spring Boot Web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Fabric8 Maven :: Sample :: Spring Boot Web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="fabric8" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="762" />
+    <option name="width" value="3078" />
+    <option name="height" value="2160" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="intellj-mvn-k8-nfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-with-yaml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellj-mvn-k8-nfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-with-yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellj-mvn-k8-nfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-with-yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellj-mvn-k8-nfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-with-yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="fabric8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellj-mvn-k8-nfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-with-yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellj-mvn-k8-nfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-with-yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intellj-mvn-k8-nfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="io.fabric8.maven.sample.spring.boot.Application" />
+      <module name="configservice" />
+      <option name="PROGRAM_PARAMETERS" value="localhost:8080" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spring-boot-with-yaml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81966b02-702a-4783-b379-141ec8488b8c" name="Default Changelist" comment="" />
+      <created>1561112545283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561112545283</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Deployment now works; remote debugging &amp; fabric8:watch does not; check&#10;other example for details on how this is done.">
+      <created>1561116964112</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561116964112</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="762" y="0" width="3078" height="2160" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15447958" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49967062" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50065875" side_tool="true" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49934125" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.20388669" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deployment now works; remote debugging &amp; fabric8:watch does not; check&#10;other example for details on how this is done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Deployment now works; remote debugging &amp; fabric8:watch does not; check&#10;other example for details on how this is done." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-with-yaml/src/main/java/io/fabric8/maven/sample/spring/boot/HelloController.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/target/classes/META-INF/fabric8/kubernetes/configservice-service.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/target/classes/META-INF/fabric8/kubernetes/configservice-deployment.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/src/main/fabric8/raw/secret.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/target/classes/META-INF/fabric8/kubernetes.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/src/main/java/io/fabric8/maven/sample/spring/boot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/target/docker/nexusrepo.mda.ca/9002/syi/sym/configservice/4.0.0/build/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-with-yaml/src/main/java/io/fabric8/maven/sample/spring/boot/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
