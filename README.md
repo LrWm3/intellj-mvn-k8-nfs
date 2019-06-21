@@ -14,12 +14,12 @@ In which I get things working together more or less
 2. I get the kubernetes plugin for intellj
 3. I get maven
 4. I get the fabric8-maven plugin for maven
-6. I get a sample jar project from the [fabric8-maven plugin repo](https://github.com/fabric8io/fabric8-maven-plugin)
+5. I get a sample jar project from the [fabric8-maven plugin repo](https://github.com/fabric8io/fabric8-maven-plugin)
    1. need a sample with a dockerfile, jar and yaml
-7. I build the project
-8. I get a sample pom.xml from the fabric8-maven plugin repo
-9. I run the fabric8 job to create a deployment in kubernetes
-10. I see the kubernetes deployment exists in intellj
+6. I build the project
+7. I get a sample pom.xml from the fabric8-maven plugin repo
+8. I run the fabric8 job to create a deployment in kubernetes
+9. I see the kubernetes deployment exists in intellj
 
 At this point I have the basics working and most of the risk is eliminated; however, I will want to be deploying my
 jar to an nfs mount to match what I'm attempting at work.
@@ -33,8 +33,8 @@ This is one direction of the complete pipeline
    1. I target double-dutch.ca/public as my test scp copy, somehow
    2. `ssh admin@double-dutch.ca` will do the trick
    3. it deploys to a parent dir based on my username, and then uses a pom.xml property for the next dir name
-2. I adjust the kubernetes deployment to mount the jar as an nfs mount and run it using the jar command or whatever
-3. I see the kubernetes deployment exists in intellj
+1. I adjust the kubernetes deployment to mount the jar as an nfs mount and run it using the jar command or whatever
+1. I see the kubernetes deployment exists in intellj
 
 ### Rollback is important too
 
@@ -79,7 +79,7 @@ brew install maven
 
 ### Install fabric8 plugin for maven
 
-I'm not sure if I even have to do anything here. I'll try and run the job in intellj for the 
+I'm not sure if I even have to do anything here. I'll try and run the job in intellj for the
 [fabric8 gitrepo](https://github.com/fabric8io/fabric8-maven-plugin).
 
 Lets see...
@@ -103,14 +103,14 @@ Progress (2): 2.8/14 kB | 4.1/20 kB
 Progress (2): 5.5/14 kB | 4.1/20 kB
 Progress (2): 5.5/14 kB | 7.4/20 kB
 Progress (2): 8.3/14 kB | 7.4/20 kB
-Progress (2): 8.3/14 kB | 10/20 kB 
-Progress (2): 11/14 kB | 10/20 kB 
+Progress (2): 8.3/14 kB | 10/20 kB
+Progress (2): 11/14 kB | 10/20 kB
 Progress (2): 11/14 kB | 13/20 kB
-Progress (2): 14 kB | 13/20 kB   
+Progress (2): 14 kB | 13/20 kB
 Progress (2): 14 kB | 16/20 kB
 Progress (2): 14 kB | 18/20 kB
-Progress (2): 14 kB | 20 kB   
-                           
+Progress (2): 14 kB | 20 kB
+
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 32 kB/s)
 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 48 kB/s)
 [INFO] ------------------------------------------------------------------------
@@ -120,10 +120,10 @@ Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/
 [INFO] Finished at: 2019-06-20T21:51:34-03:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] No plugin found for prefix 'fabric8' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/Users/wmarsman/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
-[ERROR] 
+[ERROR]
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
 [ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
+[ERROR]
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
 ```
@@ -138,22 +138,22 @@ I found the maven sidebar in Intellj. So that's done.
 
 Messing around with the fabric8 plugin, I found the following:
 
-* fabric8:resource-apply does what I want in terms of templating and creating pods, basically
-* fabric8:undeploy is a delete as far as I can tell, not much of an 'undeploy' if you ask me.
+- fabric8:resource-apply does what I want in terms of templating and creating pods, basically
+- fabric8:undeploy is a delete as far as I can tell, not much of an 'undeploy' if you ask me.
 
-Wait a second... 
+Wait a second...
 
 Why the fuck
 
 are we doing any of this
 
-am I 
+am I
 
 genuinely
 
 thinking this is wise?
 
-wow. 
+wow.
 
 did it really take me til 10:30 PM at night to hit a moment of clariety?
 
@@ -183,11 +183,11 @@ The benefit is we get templated resource files.
 
 The downside is these templated resource files do not match the templated resource files produced by Everis.
 
-OK so yea this works WAY 
+OK so yea this works WAY
 the fuck
 better
 
-than ANYTHING WE HAVE BY A SIGNIFICANT MARGIN 
+than ANYTHING WE HAVE BY A SIGNIFICANT MARGIN
 
 I am seriously going to quit my job and become a farmer if this keeps up
 
