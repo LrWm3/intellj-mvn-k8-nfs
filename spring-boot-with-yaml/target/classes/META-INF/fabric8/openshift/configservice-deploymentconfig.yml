@@ -1,0 +1,85 @@
+---
+apiVersion: apps.openshift.io/v1
+kind: DeploymentConfig
+metadata:
+  annotations:
+    fabric8.io/git-commit: 50199b3c7401f4f9133131417cdf995f7499e889
+    fabric8.io/git-branch: master
+    fabric8.io/git-url: https://github.com/fabric8io/fabric8-maven-plugin.git
+    fabric8.io/scm-url: https://github.com/spring-projects/spring-boot/spring-boot-starter-parent/configservice
+    fabric8.io/scm-tag: HEAD
+  labels:
+    project: configservice
+    hystrix.enabled: "true"
+    hystrix.cluster: default
+    version: 4.0.0
+    csci: syi
+    csc: sym
+    app: configservice
+    provider: fabric8
+    group: io.fabric8
+  name: configservice
+spec:
+  replicas: 1
+  revisionHistoryLimit: 2
+  selector:
+    app: configservice
+    provider: fabric8
+    group: io.fabric8
+  strategy:
+    rollingParams:
+      timeoutSeconds: 3600
+    type: Rolling
+  template:
+    metadata:
+      annotations:
+        fabric8.io/git-commit: 50199b3c7401f4f9133131417cdf995f7499e889
+        fabric8.io/git-branch: master
+        fabric8.io/scm-tag: HEAD
+        fabric8.io/git-url: https://github.com/fabric8io/fabric8-maven-plugin.git
+        fabric8.io/scm-url: https://github.com/spring-projects/spring-boot/spring-boot-starter-parent/configservice
+      labels:
+        project: configservice
+        hystrix.enabled: "true"
+        hystrix.cluster: default
+        version: 4.0.0
+        csci: syi
+        csc: sym
+        app: configservice
+        provider: fabric8
+        group: io.fabric8
+    spec:
+      containers:
+      - env:
+        - name: KUBERNETES_NAMESPACE
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.namespace
+        image: nexusrepo.mda.ca:9002/syi/sym/configservice:4.0.0
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /health
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 180
+          successThreshold: 1
+        name: configservice
+        ports:
+        - containerPort: 8080
+          name: http
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /health
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 10
+          successThreshold: 1
+        securityContext:
+          privileged: false
+  triggers:
+  - type: ConfigChange
+  - type: ConfigChange

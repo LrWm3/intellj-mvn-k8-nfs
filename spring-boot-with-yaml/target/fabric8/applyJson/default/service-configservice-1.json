@@ -1,0 +1,54 @@
+{
+  "apiVersion" : "v1",
+  "kind" : "Service",
+  "metadata" : {
+    "annotations" : {
+      "api.service.kubernetes.io/path" : "/hello",
+      "fabric8.io/git-branch" : "master",
+      "fabric8.io/git-commit" : "50199b3c7401f4f9133131417cdf995f7499e889",
+      "fabric8.io/git-url" : "https://github.com/fabric8io/fabric8-maven-plugin.git",
+      "fabric8.io/scm-tag" : "HEAD",
+      "fabric8.io/scm-url" : "https://github.com/spring-projects/spring-boot/spring-boot-starter-parent/configservice"
+    },
+    "creationTimestamp" : "2019-06-21T03:19:49Z",
+    "labels" : {
+      "app" : "configservice",
+      "csc" : "sym",
+      "csci" : "syi",
+      "expose" : "true",
+      "group" : "io.fabric8",
+      "provider" : "fabric8",
+      "version" : "4.0.0"
+    },
+    "name" : "configservice",
+    "namespace" : "default",
+    "resourceVersion" : "76333",
+    "selfLink" : "/api/v1/namespaces/default/services/configservice",
+    "uid" : "6d81d004-93d3-11e9-8c57-025000000001"
+  },
+  "spec" : {
+    "clusterIP" : "10.109.11.111",
+    "externalTrafficPolicy" : "Cluster",
+    "ports" : [ {
+      "name" : "http",
+      "nodePort" : 32762,
+      "port" : 8080,
+      "protocol" : "TCP",
+      "targetPort" : 8080
+    } ],
+    "selector" : {
+      "app" : "configservice",
+      "group" : "io.fabric8",
+      "provider" : "fabric8"
+    },
+    "sessionAffinity" : "None",
+    "type" : "LoadBalancer"
+  },
+  "status" : {
+    "loadBalancer" : {
+      "ingress" : [ {
+        "hostname" : "localhost"
+      } ]
+    }
+  }
+}
