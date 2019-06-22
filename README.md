@@ -193,4 +193,4 @@ I am seriously going to quit my job and become a farmer if this keeps up
 
 ### Becoming a farmer
 
-TODO
+[Can a sw eng become a farmer?](https://www.quora.com/Can-a-software-engineer-become-a-farmer)
